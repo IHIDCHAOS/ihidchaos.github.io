@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ihidchaos.github.io</id>
     <title>郭玉超</title>
-    <updated>2019-11-22T08:08:36.397Z</updated>
+    <updated>2020-04-27T02:00:01.313Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ihidchaos.github.io"/>
     <link rel="self" href="https://ihidchaos.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://ihidchaos.github.io/images/avatar.png</logo>
     <icon>https://ihidchaos.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, 郭玉超</rights>
+    <rights>All rights reserved 2020, 郭玉超</rights>
     <entry>
         <title type="html"><![CDATA[修改Ubuntu软件源并自启动SSH]]></title>
-        <id>https://ihidchaos.github.io/post/AUOtTt2Nl</id>
-        <link href="https://ihidchaos.github.io/post/AUOtTt2Nl">
+        <id>https://ihidchaos.github.io/post/AUOtTt2Nl/</id>
+        <link href="https://ihidchaos.github.io/post/AUOtTt2Nl/">
         </link>
         <updated>2019-11-22T08:00:39.000Z</updated>
         <content type="html"><![CDATA[<p>shell脚本如下：</p>
@@ -42,8 +42,8 @@ EOF
     </entry>
     <entry>
         <title type="html"><![CDATA[修改Ubuntu软件源并自启动SSH]]></title>
-        <id>https://ihidchaos.github.io/post/apt&amp;ssh</id>
-        <link href="https://ihidchaos.github.io/post/apt&amp;ssh">
+        <id>https://ihidchaos.github.io/post/apt&amp;ssh/</id>
+        <link href="https://ihidchaos.github.io/post/apt&amp;ssh/">
         </link>
         <updated>2019-11-22T08:00:39.000Z</updated>
         <content type="html"><![CDATA[<p>shell脚本如下：</p>
@@ -72,8 +72,8 @@ EOF
     </entry>
     <entry>
         <title type="html"><![CDATA[打包Python工程为PYC]]></title>
-        <id>https://ihidchaos.github.io/post/py2pyc</id>
-        <link href="https://ihidchaos.github.io/post/py2pyc">
+        <id>https://ihidchaos.github.io/post/py2pyc/</id>
+        <link href="https://ihidchaos.github.io/post/py2pyc/">
         </link>
         <updated>2019-11-22T07:53:06.000Z</updated>
         <content type="html"><![CDATA[<p>代码如下：</p>
@@ -142,8 +142,8 @@ if __name__ == '__main__':
     </entry>
     <entry>
         <title type="html"><![CDATA[设定OpenWrt网络优先级]]></title>
-        <id>https://ihidchaos.github.io/post/op-net-first</id>
-        <link href="https://ihidchaos.github.io/post/op-net-first">
+        <id>https://ihidchaos.github.io/post/op-net-first/</id>
+        <link href="https://ihidchaos.github.io/post/op-net-first/">
         </link>
         <updated>2019-11-22T07:48:48.000Z</updated>
         <content type="html"><![CDATA[<p>1.添加WAN和WLAN接口<br>
@@ -154,8 +154,8 @@ if __name__ == '__main__':
     </entry>
     <entry>
         <title type="html"><![CDATA[Shell处理Json]]></title>
-        <id>https://ihidchaos.github.io/post/shell_json</id>
-        <link href="https://ihidchaos.github.io/post/shell_json">
+        <id>https://ihidchaos.github.io/post/shell_json/</id>
+        <link href="https://ihidchaos.github.io/post/shell_json/">
         </link>
         <updated>2019-07-02T08:09:44.000Z</updated>
         <summary type="html"><![CDATA[<p>OpenWrt的jshn.sh处理数字会自动加0，jsonfilter和自写函数parse_json都可以解决此问题。</p>
@@ -201,40 +201,9 @@ echo 'version:'$version
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Windows添加OEM信息]]></title>
-        <id>https://ihidchaos.github.io/post/oem-info</id>
-        <link href="https://ihidchaos.github.io/post/oem-info">
-        </link>
-        <updated>2019-06-06T09:15:25.000Z</updated>
-        <summary type="html"><![CDATA[<p>使用注册表为自己制作的系统镜像添加OEM信息。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>使用注册表为自己制作的系统镜像添加OEM信息。</p>
-<!-- more -->
-<p>代码如下：</p>
-<pre><code>Windows Registry Editor Version 5.00 
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation]
-&quot;Manufacturer&quot;=&quot;郭玉超&quot;
-&quot;Model&quot;=&quot;郭玉超专用&quot; 
-&quot;SupportHours&quot;=&quot;24小时&quot;
-&quot;SupportURL&quot;=&quot;https://ihidchaos.github.io&quot;
-&quot;SupportPhone&quot;=&quot;QQ1103385747&quot;
-&quot;Logo&quot;=&quot;C:\\Windows\\system32\\oobe\\info\\oemlogo.bmp&quot;
-</code></pre>
-<p>复制后保存为XXX.reg文件，双击导入注册表，提示信息直接点击“是”即可。</p>
-<p>导入前：</p>
-<figure data-type="image" tabindex="1"><img src="https://s2.ax1x.com/2019/06/06/VdpIxg.png" alt="VdpIxg.png"></figure>
-<p>导入后：</p>
-<figure data-type="image" tabindex="2"><img src="https://s2.ax1x.com/2019/06/06/Vdp5RS.png" alt="Vdp5RS.png"></figure>
-<p>点击“联机支持“可以跳转到自定义网站。</p>
-<figure data-type="image" tabindex="3"><img src="https://s2.ax1x.com/2019/06/06/Vdp4G8.png" alt="Vdp4G8.png"></figure>
-<p>在UWP设置中也可以看到OEM信息。</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[N2N异地组网实战]]></title>
-        <id>https://ihidchaos.github.io/post/n2n-network</id>
-        <link href="https://ihidchaos.github.io/post/n2n-network">
+        <id>https://ihidchaos.github.io/post/n2n-network/</id>
+        <link href="https://ihidchaos.github.io/post/n2n-network/">
         </link>
         <updated>2019-06-06T04:48:10.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="用户需求">用户需求</h2>
@@ -244,15 +213,15 @@ echo 'version:'$version
 <p>技术人员在公司本地即可实现像访问本地网络（例如192.168.1.1）一样来访问异地网络，从而能够对远端路由网关下面的PLC等设备进行维护与调试。</p>
 <!-- more -->
 <h2 id="拓扑结构">拓扑结构</h2>
-<figure data-type="image" tabindex="1"><a href="https://imgchr.com/i/EbdVFH"><img src="https://s2.ax1x.com/2019/05/16/EbdVFH.png" alt="EbdVFH.png"></a></figure>
+<figure data-type="image" tabindex="1"><a href="https://imgchr.com/i/EbdVFH"><img src="https://s2.ax1x.com/2019/05/16/EbdVFH.png" alt="EbdVFH.png" loading="lazy"></a></figure>
 <h2 id="工作原理">工作原理</h2>
 <p>在这里简单介绍一下N2N的原理。如下图所示，</p>
-<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2019/05/16/5cdd2ba339f7e20954.png" alt="n2n_yuanli.png"></figure>
+<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2019/05/16/5cdd2ba339f7e20954.png" alt="n2n_yuanli.png" loading="lazy"></figure>
 <p>n2n是一个二层架构的VPN网络，服务器端中心节点（<code>SuperNode</code>） 用于交流，相当于一个”路由器”， 而边界节点（<code>EdgeNode</code>）就是每一台在网络中（可以是内网中）的主机。EdgeNode通过和SuperNode沟通后，进入某个组的“局域网”，当有同“局域网”（同组）的主机进行连接时，两台主机就直接连接起来，就像局域网内的两台主机一样。在两台主机连接后， SuperNode任务完成，EdgeNode断开中心节点，实现P2P的加密通信。因此SuperNode并不参与两台主机间直接通信,。只是起到媒人的作用。</p>
 <h2 id="解决过程">解决过程</h2>
 <h3 id="本地pc">本地PC</h3>
 <p>首先我们需要在本地PC安装N2N组网软件。您既可以选择源码编译方式安装，也可以选择下载编译后的程序直接使用，在这里我们用已经编译好的客户端软件做示范。下载程序，以管理员权限安装TAP适配器驱动，然后打开客户端并填写必要参数，如下图所示：</p>
-<figure data-type="image" tabindex="3"><img src="https://i.loli.net/2019/05/16/5cdd2ba3a75ef79552.png" alt="n2n_win.png"></figure>
+<figure data-type="image" tabindex="3"><img src="https://i.loli.net/2019/05/16/5cdd2ba3a75ef79552.png" alt="n2n_win.png" loading="lazy"></figure>
 <p>对于服务器地址和端口，可以采用网络的免费的服务器，也可以选择自建服务器。本地IP是您所想要使用的虚拟IP，组名和密码决定了您与其他设备能否处于同一网络内。服务器版本需要和客户端版本一致，否则无法连接。附加参数我们需要勾选<code>-r</code>参数以开启流量转发功能。填写完毕后，启动软件便可以连接了。</p>
 <h3 id="远程网关">远程网关</h3>
 <p>其次我们还需要在远端路由网关安装N2N客户端。</p>
@@ -284,14 +253,14 @@ ip_segment=$(ip route | grep &quot;dev $n2n_v2 proto&quot; | awk '{print $1}')
 iptables -t nat -I POSTROUTING -s $ip_segment -j MASQUERADE
 </code></pre>
 <p>然后运行程序<code>/etc/init.d/n2n_v2 start</code>即可连接到服务器。此时本地PC已经可以访问到网关的虚拟IP<code>10.10.10.100</code>，如下图所示：</p>
-<figure data-type="image" tabindex="4"><img src="https://i.loli.net/2019/05/16/5cdd45d2692f610460.png" alt="100.png"></figure>
+<figure data-type="image" tabindex="4"><img src="https://i.loli.net/2019/05/16/5cdd45d2692f610460.png" alt="100.png" loading="lazy"></figure>
 <p>但是不能ping通网关的真实IP<code>192.168.1.254</code>，如下图所示：</p>
-<figure data-type="image" tabindex="5"><img src="https://i.loli.net/2019/05/16/5cdd46c3ef01956073.png" alt="254timeout.png"></figure>
+<figure data-type="image" tabindex="5"><img src="https://i.loli.net/2019/05/16/5cdd46c3ef01956073.png" alt="254timeout.png" loading="lazy"></figure>
 <p>这是因为本地PC还没有指向192.168.1.0网段的路由，因此我们需要手动添加路由表。</p>
 <pre><code>route add 192.168.1.0 mask 255.255.255.0 远程网关虚拟IP
 </code></pre>
 <p>例如<code>route add 192.168.1.0 mask 255.255.255.0 10.10.10.100</code>，注意添加路由表需要管理员权限。这时我们再访问网关以及网关的下属设备，就可以畅通无阻，如下图所示：</p>
-<figure data-type="image" tabindex="6"><img src="https://i.loli.net/2019/05/16/5cdd2ba38610561126.png" alt="jieguo.png"></figure>
+<figure data-type="image" tabindex="6"><img src="https://i.loli.net/2019/05/16/5cdd2ba38610561126.png" alt="jieguo.png" loading="lazy"></figure>
 <h4 id="windows软路由型网关">Windows软路由型网关</h4>
 <p>有的工业设备是使用Windows作为路由使用的，这种情况下，需要开启Windows的路由和远程访问（Routing and Remote Access）服务，以管理员权限运行如下命令即可：</p>
 <pre><code>sc config remoteaccess start=auto
@@ -304,8 +273,8 @@ sc start remoteaccess
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://ihidchaos.github.io/post/hello-gridea</id>
-        <link href="https://ihidchaos.github.io/post/hello-gridea">
+        <id>https://ihidchaos.github.io/post/hello-gridea/</id>
+        <link href="https://ihidchaos.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
